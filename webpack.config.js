@@ -24,7 +24,7 @@ module.exports = {
     js: './app/main.js'
   },
   output: {
-    path: path.join(__dirname, 'static', 'javascripts'),
+    path: path.join(__dirname, 'docs', 'javascripts'),
     filename: 'chat.dist.js',
     publicPath: '/docs'
   },
