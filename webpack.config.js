@@ -26,7 +26,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'docs', 'javascripts'),
     filename: 'chat.dist.js',
-    publicPath: '/docs'
+    publicPath: '/javascripts'
   },
   module: {
     rules: [
